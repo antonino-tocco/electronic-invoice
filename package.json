@@ -1,0 +1,19 @@
+{
+  "name": "electronic-invoice",
+  "version": "1.0.1",
+  "description": "Module for generate electronic invoice based on JSON object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonino Tocco <=> (=http://www.entonytocco.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonino-tocco/electronic-invoice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antonino-tocco/electronic-invoice/issues"
+  },
+  "homepage": "https://github.com/antonino-tocco/electronic-invoice#readme"
+}

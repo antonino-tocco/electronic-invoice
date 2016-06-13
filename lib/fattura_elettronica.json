@@ -1,0 +1,104 @@
+{
+  "@": {
+    "versione": "1.1",
+    "xmlns:ds": "http://www.w3.org/2000/09/xmldsig#",
+    "xmlns:p": "http://www.fatturapa.gov.it/sdi/fatturapa/v1.1",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+  },
+  "FatturaElettronicaHeader": {
+    "DatiTrasmissione": {
+      "IdTrasmittente": {
+        "IdPaese": "",
+        "IdCodice": ""
+      },
+      "ProgressivoInvio": "",
+      "FormatoTrasmissione": "SDI11",
+      "CodiceDestinatario": ""
+    },
+    "CedentePrestatore": {
+      "DatiAnagrafici": {
+        "IdFiscaleIVA": {
+          "IdPaese": "",
+          "IdCodice": ""
+        },
+        "Anagrafica": {
+          "Denominazione": ""
+        },
+        "RegimeFiscale": ""
+      },
+      "Sede": {
+        "Indirizzo": "",
+        "CAP": "",
+        "Comune": "",
+        "Provincia": "",
+        "Nazione": ""
+      }
+    },
+    "CessionarioCommittente": {
+      "DatiAnagrafici": {
+        "CodiceFiscale": "",
+        "Anagrafica": {
+          "Denominazione": ""
+        }
+      },
+      "Sede": {
+        "Indirizzo": "",
+        "CAP": "",
+        "Comune": "",
+        "Provincia": "",
+        "Nazione": ""
+      }
+    }
+  },
+  "FatturaElettronicaBody": {
+    "DatiGenerali": {
+      "DatiGeneraliDocumento": {
+        "TipoDocumento": "TD01",
+        "Divisa": "EUR",
+        "Data": "",
+        "Numero": "",
+        "Causale": [
+          ""
+        ]
+      }
+    },
+    "DatiBeniServizi": {
+      "DettaglioLinee": [
+        {
+          "NumeroLinea": "",
+          "Descrizione": "",
+          "Quantita": "",
+          "PrezzoUnitario": "",
+          "PrezzoTotale": "",
+          "AliquotaIVA": ""
+        },
+        {
+          "NumeroLinea": "",
+          "Descrizione": "",
+          "Quantita": "",
+          "PrezzoUnitario": "",
+          "PrezzoTotale": "",
+          "AliquotaIVA": ""
+        }
+      ],
+      "DatiRiepilogo": {
+        "AliquotaIVA": "",
+        "ImponibileImporto": "",
+        "Imposta": "",
+        "EsigibilitaIVA": "S",
+        "RiferimentoNormativo": "Iva versata dal committente art. 17-ter D.P.R. 633/72"
+      }
+    },
+    "DatiPagamento": {
+      "CondizioniPagamento": "TP02",
+      "DettaglioPagamento": {
+        "ModalitaPagamento": "MP05",
+        "DataScadenzaPagamento": "",
+        "ImportoPagamento": "",
+        "IstitutoFinanziario": "credito emiliano spa",
+        "Iban": "IT71C0303243580010000002570",
+        "CodicePagamento": "BB"
+      }
+    }
+  }
+}

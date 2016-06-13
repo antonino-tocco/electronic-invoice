@@ -1,0 +1,4 @@
+{
+  "basePath": "./fattura_elettronica.json",
+  "destinationPath": "./fattura_elettronica.xml"
+}

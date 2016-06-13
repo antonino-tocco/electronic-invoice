@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica versione="1.1" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://www.fatturapa.gov.it/sdi/fatturapa/v1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>06123810829</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>1</ProgressivoInvio>
+			<FormatoTrasmissione>SDI11</FormatoTrasmissione>
+			<CodiceDestinatario>UFX3LO</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>06123810829</IdCodice>
+				</IdFiscaleIVA>
+				<Anagrafica>
+					<Denominazione>F.Mirto S.r.l</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>Via Trieste, 40</Indirizzo>
+				<CAP>90040</CAP>
+				<Comune>San Cipirello</Comune>
+				<Provincia>PA</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<CodiceFiscale>80021470820</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>Città Metropolitana di Palermo</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>Via Maqueda, 100</Indirizzo>
+				<CAP>901xx</CAP>
+				<Comune>Palermo</Comune>
+				<Provincia>PA</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2016-06-01</Data>
+				<Numero>FATTPA 1_16</Numero>
+				<Causale>Test</Causale>
+				<ImportoTotaleDocumento>2.44</ImportoTotaleDocumento>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea></NumeroLinea>
+				<Descrizione></Descrizione>
+				<Quantita></Quantita>
+				<PrezzoUnitario></PrezzoUnitario>
+				<PrezzoTotale></PrezzoTotale>
+				<AliquotaIVA></AliquotaIVA>
+			</DettaglioLinee>
+			<DettaglioLinee>
+				<NumeroLinea></NumeroLinea>
+				<Descrizione></Descrizione>
+				<Quantita></Quantita>
+				<PrezzoUnitario></PrezzoUnitario>
+				<PrezzoTotale></PrezzoTotale>
+				<AliquotaIVA></AliquotaIVA>
+			</DettaglioLinee>
+			<DettaglioLinee>
+				<NumeroLinea>01</NumeroLinea>
+				<Descrizione>Test</Descrizione>
+				<Quantita>1</Quantita>
+				<PrezzoUnitario>2</PrezzoUnitario>
+				<PrezzoTotale>2.44</PrezzoTotale>
+				<AliquotaIVA>22</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22</AliquotaIVA>
+				<ImponibileImporto>2</ImponibileImporto>
+				<Imposta>0.43999999999999995</Imposta>
+				<EsigibilitaIVA>S</EsigibilitaIVA>
+				<RiferimentoNormativo>Iva versata dal committente art. 17-ter D.P.R. 633/72</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataScadenzaPagamento>2016-06-01</DataScadenzaPagamento>
+				<ImportoPagamento>2.44</ImportoPagamento>
+				<IstitutoFinanziario>credito emiliano spa</IstitutoFinanziario>
+				<Iban>IT71C0303243580010000002570</Iban>
+				<CodicePagamento>BB</CodicePagamento>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
