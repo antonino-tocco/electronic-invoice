@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "_args": [
     [
       {
@@ -57,10 +56,9 @@
     "js2xmlparser": "^1.0.0",
     "lodash": "^4.13.1"
   },
-=======
+
   "name": "electronic-invoice",
   "version": "1.0.5",
->>>>>>> develop
   "description": "Module for generate electronic invoice based on JSON object",
   "devDependencies": {},
   "directories": {},
@@ -87,13 +85,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
-  "version": "1.0.2"
-=======
   "homepage": "https://github.com/antonino-tocco/electronic-invoice#readme",
   "dependencies": {
     "js2xmlparser": "^1.0.0",
     "lodash": "^4.13.1"
   }
->>>>>>> develop
 }
