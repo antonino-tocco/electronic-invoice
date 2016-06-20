@@ -58,7 +58,7 @@
     "mkdirp": "^0.5.1"
   },
   "name": "electronic-invoice",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Module for generate electronic invoice based on JSON object",
   "devDependencies": {},
   "directories": {},
