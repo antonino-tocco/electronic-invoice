@@ -54,11 +54,8 @@
   },
   "dependencies": {
     "js2xmlparser": "^1.0.0",
-    "lodash": "^4.13.1",
-    "mkdirp": "^0.5.1"
+    "lodash": "^4.13.1"
   },
-  "name": "electronic-invoice",
-  "version": "1.0.7",
   "description": "Module for generate electronic invoice based on JSON object",
   "devDependencies": {},
   "directories": {},
@@ -75,6 +72,7 @@
       "name": "entonytocco"
     }
   ],
+  "name": "electronic-invoice",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
@@ -83,5 +81,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "version": "1.0.2"
 }
