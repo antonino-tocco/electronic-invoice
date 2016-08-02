@@ -1,23 +1,86 @@
 {
-  "name": "electronic-invoice",
-  "version": "1.0.5",
-  "description": "Module for generate electronic invoice based on JSON object",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "name": "electronic-invoice",
+        "raw": "electronic-invoice",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/antoninotocco/Desktop/webgest"
+    ]
+  ],
+  "_from": "electronic-invoice@latest",
+  "_id": "electronic-invoice@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/electronic-invoice",
+  "_nodeVersion": "4.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/electronic-invoice-1.0.1.tgz_1465807190161_0.5698703385423869"
   },
-  "author": "Antonino Tocco <=> (=http://www.entonytocco.com)",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/antonino-tocco/electronic-invoice.git"
+  "_npmUser": {
+    "email": "entonytocco@gmail.com",
+    "name": "entonytocco"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "electronic-invoice",
+    "raw": "electronic-invoice",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/electronic-invoice/-/electronic-invoice-1.0.1.tgz",
+  "_shasum": "de14a5ef8ec45565c47770bf93412d376ffd1568",
+  "_shrinkwrap": null,
+  "_spec": "electronic-invoice",
+  "_where": "/Users/antoninotocco/Desktop/webgest",
+  "author": {
+    "email": "=",
+    "name": "Antonino Tocco",
+    "url": "=http://www.entonytocco.com"
   },
   "bugs": {
     "url": "https://github.com/antonino-tocco/electronic-invoice/issues"
   },
-  "homepage": "https://github.com/antonino-tocco/electronic-invoice#readme",
   "dependencies": {
     "js2xmlparser": "^1.0.0",
     "lodash": "^4.13.1"
-  }
+  },
+  "description": "Module for generate electronic invoice based on JSON object",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "de14a5ef8ec45565c47770bf93412d376ffd1568",
+    "tarball": "https://registry.npmjs.org/electronic-invoice/-/electronic-invoice-1.0.1.tgz"
+  },
+  "homepage": "https://github.com/antonino-tocco/electronic-invoice#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "entonytocco@gmail.com",
+      "name": "entonytocco"
+    }
+  ],
+  "name": "electronic-invoice",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonino-tocco/electronic-invoice.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
 }
